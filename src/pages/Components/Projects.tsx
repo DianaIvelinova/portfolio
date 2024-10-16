@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <>
@@ -14,24 +16,16 @@ export default function Projects() {
                 Todoloo
               </h2>
               <div className="btn-container">
-                <button className="btn btn-color-2 project-btn">Github</button>
-                <button className="btn btn-color-2 project-btn">
-                  Live Demo
-                </button>
-              </div>
-            </div>
-            <div className="details-container color-container">
-              <div className="project-container">
-                <img src="./project-2.png" alt="Project 2" className="project-img" />
-              </div>
-              <h2 className="experience-sub-title project-title">
-                To be added
-              </h2>
-              <div className="btn-container">
-                <button className="btn btn-color-2 project-btn">Github</button>
-                <button className="btn btn-color-2 project-btn">
-                  Live Demo
-                </button>
+                <Link href="https://github.com/DianaIvelinova/todoloo" target="_blank">
+                  <button className="btn btn-color-2 project-btn">
+                    Github
+                  </button>
+                </Link>
+                <Link href="https://todoloo-diyanaiv.vercel.app/" target="_blank">
+                  <button className="btn btn-color-2 project-btn">
+                    Website 
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="details-container color-container">

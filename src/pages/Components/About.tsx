@@ -35,7 +35,7 @@ export default function About() {
                         <img src="./checkmark.png" alt="checkmark icon" className="icon" />
                         <div>
                           <h3>HTML/CSS</h3>
-                          <p className="experience-text">Expert</p>
+                          <p className="experience-text">Advanced</p>
                         </div>
                       </article>
                     </div>

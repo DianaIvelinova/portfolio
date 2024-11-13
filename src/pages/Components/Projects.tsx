@@ -33,7 +33,7 @@ export default function Projects() {
                 <img src="./project-2.jpg" alt="Project 2" className="project-img" />
               </div>
               <h2 className="experience-sub-title project-title">
-                To be added
+                Eventsculpt
               </h2>
               <div className="btn-container">
                 <Link href="https://github.com/DianaIvelinova/todoloo" target="_blank">

@@ -36,7 +36,7 @@ export default function Projects() {
                 Eventsculpt
               </h2>
               <div className="btn-container">
-                <Link href="https://github.com/DianaIvelinova/todoloo" target="_blank">
+                <Link href="https://github.com/DianaIvelinova/Eventsculpt" target="_blank">
                     <button className="btn btn-color-2 project-btn">
                       Github
                     </button>

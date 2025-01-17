@@ -41,11 +41,11 @@ export default function Projects() {
                       Github
                     </button>
                   </Link>
-                  <Link href="https://eventsculpt.azurewebsites.net/" target="_blank">
+                  <div>
                     <button className="btn btn-color-2 project-btn">
-                      Website 
+                      To Be Added 
                     </button>
-                  </Link>
+                  </div>
               </div>
             </div>
           </div>
